@@ -1,0 +1,23 @@
+## install reqirements.txt
+
+pip install -r requirements.txt
+
+## Create Virtual Environment 
+
+python -m venv venv
+
+## Activate venv
+
+venv\Scripts\activate
+
+## Start Api
+
+python api.py
+
+## Test Api (new terminal)
+
+python test_request.py
+
+## Close Virtual Environment 
+
+deactivate
